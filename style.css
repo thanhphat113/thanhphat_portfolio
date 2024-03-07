@@ -1,6 +1,55 @@
-.container{
-	margin: 10px;
-	background-color: aqua;
-	height: 100%;
-	width:80%;
+.wrapper{
+	width: 900px;
+	margin: 0 auto;
 }
+
+body{
+	margin: 0;
+	padding:0;
+	font: 14px / 1.5  Arial;
+    color: #727272;
+	font-weight: 400;
+}
+
+h1{
+	font-size: 28px;
+}
+
+a{
+	text-decoration: none;
+	color:rgb(2, 125, 125)
+}
+
+a:hover{
+	font-style:oblique;
+	color: aquamarine;
+}
+
+header img{
+	max-width: 100%;
+	border-radius: 50%;
+}
+
+header{
+	padding: 6px;
+	width: 280px;
+	float:left;
+	position: fixed;
+}
+
+section{
+	padding: 6px;
+	float: right;
+	width: 560px;
+	display: block;
+}
+
+section h1,h2,h3{
+	color:black;
+}
+
+section img{
+	max-width: 100%;
+}
+
+
